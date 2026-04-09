@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/chiragramani/FlipperPluginUtils",
-                 branch: "main"),
+                 revision: "f68ac6cc7954867b4ea9d9fa13be5995174c4929"),
     ],
     targets: [
         .target(
